@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Controle Financeiro Mensal</title>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <header>
+            <h1>Controle Financeiro Mensal</h1>
+        </header>
+
+        <main>
+            <div class="gridEditarProd">
+            
+                    <section>
+                        <div class="form">
+                            <input type="text" id="newBeneficiario" placeholder="Beneficiario">
+                            <input type="text" id="newPagador" placeholder="Pagador">
+                            <input type="text" id="newValor" placeholder="Valor">
+                            <input type="text" id="newVencimento" placeholder="Vencimento" onfocus="this.type='date'" onblur="if (!this.value) this.type='text'">
+                            <button onclick="newItem()" class="addBtn">Adicionar</button>
+                        </div>
+                    </section>
+
+                    <section>
+                        <div class="form">
+                            <table id="myTable">
+                                <tr>
+                                    <th><img src=img/invoice.png width="50px" height="50px"></th>
+                                    <th><img src=img/man.png width="50px" height="50px"></th>
+                                    <th><img src=img/cash.png width="50px" height="50px"></th>
+                                    <th><img src=img/calendar.png width="50px" height="50px"></th>
+                                    <th><img src=img/delete.png width="50px" height="50px"></th>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Controle Financeiro Mensal. Todos os direitos reservados.</p>
+        </footer>
+
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
