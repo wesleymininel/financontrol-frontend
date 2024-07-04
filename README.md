@@ -102,7 +102,3 @@ financontrol-frontend/
 ## Contribuição
 
 Sinta-se à vontade para contribuir com este projeto. Você pode abrir issues ou enviar pull requests para melhorias e correções de bugs.
-
-## Licença
-
-Este projeto é licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
