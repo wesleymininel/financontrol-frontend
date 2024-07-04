@@ -12,8 +12,6 @@ Este projeto tem como objetivo fornecer uma interface de usuário intuitiva para
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-- **Fetch API**
-- **Bootstrap (opcional)**
 
 ## Requisitos
 
